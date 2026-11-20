@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=114395277', 'ym');
+
+        ym(114395277, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/114395277" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <title>Пополнение и вывод средств в Lucky Bear — карты, крипта, СБП</title>
+    <meta name="description" content="Способы пополнения и вывода денег в Lucky Bear Casino. Банковские карты, СБП, T-Bank, USDT, Bitcoin. Мгновенные транзакции без комиссии. Лимиты и верификация.">
+    <meta name="theme-color" content="#0a1628">
+    <link rel="canonical" href="https://lucky-bear-2026.pro/payments.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Пополнение и вывод средств в Lucky Bear">
+    <meta property="og:description" content="Все способы оплаты в Lucky Bear: карты, крипта, электронные кошельки. Быстро и безопасно.">
+    <meta property="og:url" content="https://lucky-bear-2026.pro/payments.html">
+    <meta property="og:image" content="https://lucky-bear-2026.pro/images/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(160deg, #0a1628 0%, #0f2040 50%, #0a1628 100%);
+            color: #d0e4f8;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        a { color: #4ab8ff; text-decoration: none; transition: 0.3s; }
+        a:hover { color: #7acbff; text-shadow: 0 0 25px rgba(74, 184, 255, 0.2); }
+
+        .site-header {
+            background: rgba(10, 22, 40, 0.85);
+            backdrop-filter: blur(20px);
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(26, 48, 80, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
+        }
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 22px;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        .brand img { height: 44px; width: auto; display: block; }
+        .menu-button {
+            display: none;
+            background: none;
+            border: 1px solid #1a3050;
+            color: #d0e4f8;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .main-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px 20px;
+            flex-wrap: wrap;
+        }
+        .main-nav a {
+            color: #8aaac8;
+            font-weight: 500;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+        .main-nav a:hover { color: #4ab8ff; text-shadow: 0 0 20px rgba(74, 184, 255, 0.15); }
+        .main-nav a.active {
+            color: #4ab8ff;
+            border-bottom: 2px solid #4ab8ff;
+        }
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .age-badge {
+            background: #1a3050;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 700;
+            color: #4ab8ff;
+            font-size: 13px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 24px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            text-align: center;
+        }
+        .btn.primary {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            color: #ffffff;
+            box-shadow: 0 4px 25px rgba(26, 124, 204, 0.3);
+        }
+        .btn.primary:hover {
+            transform: scale(1.04);
+            box-shadow: 0 8px 40px rgba(74, 184, 255, 0.35);
+        }
+        .btn.ghost {
+            background: transparent;
+            color: #8aaac8;
+            border: 1px solid #1a3050;
+        }
+        .btn.ghost:hover {
+            border-color: #4ab8ff;
+            color: #4ab8ff;
+            box-shadow: 0 0 30px rgba(74, 184, 255, 0.05);
+        }
+        .btn.large { padding: 14px 40px; font-size: 18px; }
+
+        /* ===== ПОДВАЛ ===== */
+        .footer-cta {
+            background: linear-gradient(145deg, rgba(10, 22, 40, 0.8), rgba(15, 32, 64, 0.6));
+            border-top: 1px solid rgba(26, 48, 80, 0.3);
+            border-bottom: 1px solid rgba(26, 48, 80, 0.3);
+            padding: 50px 0;
+        }
+        .footer-cta .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .footer-cta h2 { color: #ffffff; font-size: 28px; }
+        .footer-cta p { color: #8aaac8; max-width: 500px; }
+        .site-footer {
+            background: rgba(10, 22, 40, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 40px 0 20px;
+            border-top: 1px solid rgba(26, 48, 80, 0.3);
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            gap: 30px;
+        }
+        .footer-brand p { color: #8aaac8; font-size: 14px; margin: 12px 0; }
+        .footer-trust { display: flex; gap: 12px; }
+        .footer-trust span {
+            background: rgba(26, 48, 80, 0.4);
+            padding: 2px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #8aaac8;
+        }
+        .footer-grid strong {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .footer-grid a {
+            display: block;
+            color: #8aaac8;
+            font-size: 14px;
+            padding: 3px 0;
+            transition: 0.3s;
+        }
+        .footer-grid a:hover { color: #4ab8ff; }
+        .footer-bottom {
+            border-top: 1px solid rgba(26, 48, 80, 0.3);
+            padding-top: 20px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: #5a7a9a;
+        }
+
+        /* ===== ОСНОВНОЙ КОНТЕНТ ===== */
+        .page-title {
+            padding: 40px 0 20px;
+            text-align: center;
+        }
+        .page-title h1 {
+            font-size: 42px;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        .page-title p {
+            font-size: 18px;
+            color: #8aaac8;
+            max-width: 700px;
+            margin: 10px auto 0;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .section { padding: 40px 0; }
+        .section.soft { background: rgba(10, 22, 40, 0.3); }
+
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .section-head h2 {
+            font-size: 30px;
+            color: #ffffff;
+        }
+        .section-head .eyebrow {
+            display: inline-block;
+            background: rgba(26, 48, 80, 0.5);
+            backdrop-filter: blur(4px);
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #4ab8ff;
+            margin-bottom: 4px;
+        }
+
+        .payment-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .method-card {
+            background: rgba(17, 29, 53, 0.7);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .method-card:hover {
+            border-color: #4ab8ff;
+            transform: translateY(-4px);
+        }
+        .method-card i {
+            font-size: 32px;
+            color: #4ab8ff;
+            margin-bottom: 12px;
+        }
+        .method-card h3 {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        .method-card p {
+            font-size: 14px;
+            color: #8aaac8;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin: 16px 0 24px;
+        }
+        .table-wrap table {
+            width: 100%;
+            background: rgba(17, 29, 53, 0.5);
+            backdrop-filter: blur(8px);
+            border-radius: 12px;
+            border-collapse: collapse;
+            font-size: 15px;
+            border: 1px solid rgba(26, 48, 80, 0.4);
+        }
+        .table-wrap th {
+            background: rgba(26, 48, 80, 0.4);
+            color: #4ab8ff;
+            padding: 14px 18px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .table-wrap td {
+            padding: 12px 18px;
+            border-bottom: 1px solid rgba(26, 48, 80, 0.3);
+            color: #d0e4f8;
+        }
+        .table-wrap tr:last-child td { border-bottom: none; }
+
+        /* ===== МОБИЛЬНАЯ ПАНЕЛЬ ===== */
+        .mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 22, 40, 0.95);
+            backdrop-filter: blur(16px);
+            border-top: 1px solid rgba(26, 48, 80, 0.4);
+            padding: 10px;
+            gap: 10px;
+            z-index: 200;
+        }
+        .mobile-bar a {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+        .mobile-bar a:first-child {
+            background: transparent;
+            border: 1px solid #1a3050;
+            color: #8aaac8;
+        }
+        .mobile-bar a:last-child {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            color: #ffffff;
+        }
+
+        .prose h2 {
+            font-size: 26px;
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 40px 0 12px;
+            padding-top: 10px;
+        }
+        .prose h2:first-child { margin-top: 0; }
+        .prose p { color: #d0e4f8; margin-bottom: 16px; }
+
+        .faq details {
+            background: rgba(17, 29, 53, 0.5);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 10px;
+            transition: 0.3s;
+        }
+        .faq details:hover { border-color: #4ab8ff; }
+        .faq summary {
+            font-weight: 600;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        .faq summary:hover { color: #4ab8ff; }
+        .faq details p {
+            color: #d0e4f8;
+            padding-top: 12px;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .menu-button { display: block; }
+            .main-nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 16px 0;
+                gap: 8px;
+            }
+            .main-nav.open { display: flex; }
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                padding-top: 12px;
+                border-top: 1px solid rgba(26, 48, 80, 0.3);
+            }
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-cta .container { flex-direction: column; text-align: center; }
+            .mobile-bar { display: flex; }
+            .site-footer { padding-bottom: 80px; }
+            .page-title h1 { font-size: 28px; }
+        }
+        @media (max-width: 480px) {
+            .page-title h1 { font-size: 24px; }
+            .btn.large { padding: 12px 24px; font-size: 16px; }
+        }
+        .age-gate {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 22, 40, 0.97);
+            backdrop-filter: blur(20px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .age-gate[hidden] { display: none; }
+        .age-gate-card {
+            background: rgba(17, 29, 53, 0.8);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 480px;
+            text-align: center;
+            box-shadow: 0 12px 60px rgba(0, 0, 0, 0.4);
+        }
+        .age-gate-mark {
+            display: inline-block;
+            background: rgba(26, 48, 80, 0.5);
+            padding: 8px 24px;
+            border-radius: 40px;
+            font-size: 24px;
+            font-weight: 800;
+            color: #4ab8ff;
+        }
+        .age-gate-card h2 {
+            color: #ffffff;
+            font-size: 26px;
+            margin: 16px 0 8px;
+        }
+        .age-gate-card p { color: #8aaac8; margin-bottom: 24px; }
+        .age-gate-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        .age-gate-card a { display: block; margin-top: 16px; color: #5a7a9a; font-size: 14px; }
+        [hidden] { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <!-- ===== AGE GATE ===== -->
+    <div class="age-gate" data-age-gate role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+        <div class="age-gate-card">
+            <span class="age-gate-mark">18+</span>
+            <p class="eyebrow">Подтверждение возраста</p>
+            <h2 id="age-gate-title">Вам уже исполнилось 18 лет?</h2>
+            <p>Сайт содержит информацию об азартных играх и предназначен только для совершеннолетних. Азартная игра не является способом заработка.</p>
+            <div class="age-gate-actions">
+                <button type="button" class="btn primary large" data-age-accept>Да, мне есть 18</button>
+                <button type="button" class="btn ghost large" data-age-reject>Мне нет 18</button>
+            </div>
+            <a href="rules.html">Ответственная игра и ограничения</a>
+        </div>
+    </div>
+
+    <!-- ===== ШАПКА ===== -->
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="index.html">
+                <img src="images/menu-logo.png" alt="Lucky Bear Казино" loading="lazy" style="height:44px; width:auto;">
+            </a>
+            <button class="menu-button" type="button" data-menu aria-label="Открыть меню">
+                <i class="fas fa-bars"></i> Меню
+            </button>
+            <nav class="main-nav" data-nav>
+                <a href="index.html">Главная</a>
+                <a href="bonuses.html">Бонусы</a>
+                <a href="games.html">Игры</a>
+                <a href="vip.html">VIP</a>
+                <a href="app.html">Приложение</a>
+                <a href="reviews.html">Отзывы</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="payments.html" class="active">Платежи</a>
+                <a href="rules.html">Правила</a>
+            </nav>
+            <div class="header-actions">
+                <span class="age-badge">18+</span>
+                <a class="btn ghost" href="https://megaplay333.xyz/5f7Aw7" rel="nofollow sponsored">Войти</a>
+                <a class="btn primary" href="https://megaplay333.xyz/5f7Aw7" rel="nofollow sponsored">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== ОСНОВНОЕ СОДЕРЖАНИЕ ===== -->
+    <main>
+
+        <section class="page-title">
+            <div class="container">
+                <span class="eyebrow">Финансовые операции</span>
+                <h1><span class="gradient-text">Пополнение и вывод</span> в Lucky Bear</h1>
+                <p>Быстрые, безопасные и анонимные транзакции для игроков из СНГ.</p>
+            </div>
+        </section>
+
+        <!-- ===== СПОСОБЫ ОПЛАТЫ ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="payment-methods">
+                    <div class="method-card">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Банковские карты</h3>
+                        <p>Visa, Mastercard, МИР. Мгновенное зачисление.</p>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-qrcode"></i>
+                        <h3>СБП</h3>
+                        <p>Система быстрых платежей. Без комиссий.</p>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-wallet"></i>
+                        <h3>T-Bank / Сбер</h3>
+                        <p>Прямые переводы через популярные банки.</p>
+                    </div>
+                    <div class="method-card">
+                        <i class="fab fa-bitcoin"></i>
+                        <h3>Криптовалюты</h3>
+                        <p>USDT (TRC20), BTC, ETH, LTC. Анонимно.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТАБЛИЦА ЛИМИТОВ ===== -->
+        <section class="section soft">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Условия</span>
+                        <h2>Лимиты и сроки обработки</h2>
+                    </div>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Метод</th>
+                                <th>Мин. депозит</th>
+                                <th>Мин. вывод</th>
+                                <th>Срок вывода</th>
+                                <th>Комиссия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Банковская карта</td>
+                                <td>500 ₽</td>
+                                <td>1000 ₽</td>
+                                <td>До 15 минут</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>СБП</td>
+                                <td>500 ₽</td>
+                                <td>1000 ₽</td>
+                                <td>До 5 минут</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>USDT (TRC20)</td>
+                                <td>10 USDT</td>
+                                <td>20 USDT</td>
+                                <td>До 30 минут</td>
+                                <td>Сеть</td>
+                            </tr>
+                            <tr>
+                                <td>Bitcoin</td>
+                                <td>0.001 BTC</td>
+                                <td>0.002 BTC</td>
+                                <td>До 1 часа</td>
+                                <td>Сеть</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ОГРОМНЫЙ ТЕКСТ С КЛЮЧАМИ ===== -->
+        <section class="section">
+            <div class="container prose">
+                <h2>Подробный гид по платежам в Lucky Bear Casino</h2>
+                <p>Финансовая безопасность и удобство транзакций являются приоритетом для <strong>Lucky Bear Casino</strong> (Лаки Бир). Мы предлагаем игрокам из России и стран СНГ широкий спектр платежных инструментов, позволяющих мгновенно пополнять игровой счет и быстро выводить выигрыши. В этом разделе мы подробно разберем все доступные методы, их лимиты, комиссии и особенности использования.</p>
+                
+                <h3>Пополнение счета через банковские карты и СБП</h3>
+                <p>Самым популярным способом внесения депозита в <strong>Lucky Bear</strong> являются банковские карты Visa, Mastercard и МИР, а также Система Быстрых Платежей (СБП). Транзакции обрабатываются автоматически, и средства поступают на баланс практически мгновенно. Минимальная сумма пополнения составляет всего 500 рублей, что делает казино доступным для игроков с любым бюджетом. При использовании СБП комиссия полностью отсутствует, а перевод защищен банковскими протоколами безопасности.</p>
+
+                <h3>Криптовалютные платежи: USDT, Bitcoin, Ethereum</h3>
+                <p>Для тех, кто ценит анонимность и скорость, <strong>казино Лаки Бир</strong> поддерживает оплату криптовалютами. Вы можете использовать USDT (в сети TRC20 для минимальных комиссий), Bitcoin (BTC), Ethereum (ETH) и Litecoin (LTC). Криптовалютные выводы обрабатываются быстрее банковских и не требуют раскрытия личных данных. Это идеальный выбор для игроков, которые хотят сохранить свою финансовую приватность.</p>
+
+                <h3>Процедура верификации (KYC) и безопасность</h3>
+                <p>Для обеспечения безопасности средств и предотвращения мошенничества, <strong>Lucky Bear Casino</strong> может запросить прохождение верификации (KYC) перед первым крупным выводом. Этот процесс включает загрузку фотографии паспорта и селфи с документом. Процедура занимает от 15 минут до 2 часов и является стандартной практикой для всех лицензионных казино. Верифицированные аккаунты получают повышенные лимиты на вывод и персональную поддержку.</p>
+
+                <h3>Лимиты на вывод и сроки обработки</h3>
+                <p>Стандартный лимит на вывод для новых игроков составляет до 100 000 рублей в сутки. Для VIP-клиентов эти лимиты значительно расширены. Обработка заявок на вывод занимает в среднем от 5 до 15 минут для электронных методов и до 24 часов для банковских переводов в выходные дни. Мы стремимся к тому, чтобы каждый игрок получал свои winnings максимально оперативно.</p>
+
+                <h3>Что делать при задержке платежа?</h3>
+                <p>Если ваш вывод задерживается, первым делом проверьте статус заявки в личном кабинете. Часто задержки связаны с дополнительной проверкой службы безопасности или техническими работами банка-получателя. В таких случаях рекомендуется обратиться в круглосуточную поддержку <strong>Lucky Bear</strong> через онлайн-чат. Наши специалисты помогут отследить транзакцию и решить любой вопрос в кратчайшие сроки.</p>
+
+                <p style="margin-top: 40px; padding: 20px; background: rgba(26, 48, 80, 0.3); border-left: 4px solid #4ab8ff; font-weight: bold; color: #ffffff;">
+                    Содержание этого веб-сайта является исключительной собственностью Lucky Bear Casino. Все права защищены. Использование материалов без разрешения запрещено.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== FAQ ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Частые вопросы</span>
+                        <h2>Вопросы о платежах</h2>
+                    </div>
+                </div>
+                <div class="faq">
+                    <details>
+                        <summary>Какая минимальная сумма для вывода?</summary>
+                        <p>Минимальная сумма вывода составляет 1000 рублей для карт и СБП, и 20 USDT для криптовалют.</p>
+                    </details>
+                    <details>
+                        <summary>Нужно ли платить комиссию?</summary>
+                        <p>Со стороны казино комиссия отсутствует. Однако банк или крипто-сеть могут взимать свои сборы за транзакцию.</p>
+                    </details>
+                    <details>
+                        <summary>Можно ли пополнить с чужой карты?</summary>
+                        <p>Нет, пополнение и вывод должны осуществляться только с ваших личных счетов и карт во избежание блокировки.</p>
+                    </details>
+                    <details>
+                        <summary>Как долго проходит верификация?</summary>
+                        <p>Обычно проверка документов занимает от 15 минут до 2 часов в рабочее время службы безопасности.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== ПРИЗЫВ ===== -->
+    <section class="footer-cta">
+        <div class="container">
+            <div>
+                <span>Пополняйте выгодно</span>
+                <h2>Выбирайте удобный способ оплаты!</h2>
+                <p>Безопасные транзакции, мгновенные зачисления и отсутствие скрытых комиссий.</p>
+            </div>
+            <a class="btn primary large" href="https://megaplay333.xyz/5f7Aw7" rel="nofollow sponsored">Пополнить счет</a>
+        </div>
+    </section>
+
+    <!-- ===== ФУТЕР ===== -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <img src="images/menu-logo.png" alt="Lucky Bear Казино" style="height:40px; width:auto;">
+                    <span style="font-size:20px; font-weight:800; color:#ffffff;">Lucky Bear</span>
+                </div>
+                <p>Русскоязычный сайт Lucky Bear Казино для совершеннолетних пользователей стран СНГ. Азартная игра не является способом заработка.</p>
+                <div class="footer-trust"><span>HTTPS</span><span>18+</span><span>Проверка источников</span></div>
+            </div>
+            <div><strong>Аккаунт</strong><a href="index.html">Главная</a><a href="bonuses.html">Бонусы</a></div>
+            <div><strong>Игры</strong><a href="games.html">Каталог игр</a><a href="vip.html">VIP</a></div>
+            <div><strong>Приложение</strong><a href="app.html">Приложение</a></div>
+            <div><strong>Контакты</strong><a href="contacts.html">Контакты</a><a href="reviews.html">Отзывы</a></div>
+        </div>
+        
+        <div class="container" style="text-align: center; margin-top: 30px; border-top: 1px solid rgba(26, 48, 80, 0.4); padding-top: 20px;">
+            <p style="color: #4ab8ff; font-weight: 700; font-size: 14px;">
+                Содержание этого веб-сайта является исключительной собственностью Lucky Bear Casino.
+            </p>
+            <p class="footer-license-text">
+                Licensed by Curacao eGaming. Support available 24/7.
+            </p>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>© 2026 Lucky Bear Казино</span>
+            <span>Русская версия · СНГ · 18+</span>
+        </div>
+    </footer>
+
+    <!-- ===== МОБИЛЬНАЯ ПАНЕЛЬ ===== -->
+    <div class="mobile-bar">
+        <a href="https://megaplay333.xyz/5f7Aw7" rel="nofollow sponsored">Войти</a>
+        <a href="https://megaplay333.xyz/5f7Aw7" rel="nofollow sponsored">Играть</a>
+    </div>
+
+    <script>
+        (function() {
+            'use strict';
+
+            const ageGate = document.querySelector('[data-age-gate]');
+            const ageAccept = document.querySelector('[data-age-accept]');
+            const ageReject = document.querySelector('[data-age-reject]');
+
+            if (localStorage.getItem('ageVerified') === 'true') {
+                if (ageGate) ageGate.hidden = true;
+            }
+
+            if (ageAccept) {
+                ageAccept.addEventListener('click', function() {
+                    localStorage.setItem('ageVerified', 'true');
+                    if (ageGate) ageGate.hidden = true;
+                });
+            }
+
+            if (ageReject) {
+                ageReject.addEventListener('click', function() {
+                    window.location.href = 'https://www.google.com';
+                });
+            }
+
+            const menuButton = document.querySelector('[data-menu]');
+            const nav = document.querySelector('[data-nav]');
+
+            if (menuButton && nav) {
+                menuButton.addEventListener('click', function() {
+                    nav.classList.toggle('open');
+                    const expanded = nav.classList.contains('open');
+                    menuButton.setAttribute('aria-expanded', expanded);
+                    menuButton.innerHTML = expanded ?
+                        '<i class="fas fa-times"></i> Закрыть' :
+                        '<i class="fas fa-bars"></i> Меню';
+                });
+            }
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.method-card, .table-wrap').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(el);
+            });
+
+        })();
+    </script>
+
+</body>
+</html>
